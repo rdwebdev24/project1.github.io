@@ -1,0 +1,192 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.first{
+     background-image: url('./pj9.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 450px;
+     text-align: center;
+     
+}  
+  
+.first h1,p{
+     text-transform: capitalize;
+     font-weight: bold;
+     color: white;
+     padding-bottom: 20px;
+     margin-bottom: 22px;
+
+}
+.first h1{
+     font-size: 35px;
+    padding-top: 100px;
+}
+
+.first .btn{
+     border: 1px solid white;
+     color: white;
+     font-weight: bold;
+     font-size: 21px;
+     text-transform: capitalize;
+     outline: none;
+     padding: 15px;
+     background-color: #333;
+     border-radius: 10px;
+     text-decoration: none;
+     
+}
+
+.first .btn:hover{
+     color: black;
+     background-color: white;
+}
+
+/* ************** second div ***************** */
+
+.second{
+     display: flex;
+     flex-direction: column;
+     background-color: #e4e4e4;
+}
+.second h2{
+     margin-top: 30px;
+     text-transform: capitalize;
+     text-align: center;
+     font-size: 1.8rem;
+     padding-bottom:20px;
+
+}
+
+.secondpara{
+     display: flex;
+     flex-direction: row;
+     
+}
+
+
+#second_left{
+     color: black;
+     padding:60px;
+     font-size: 1rem;
+     margin-left: 100px;
+     margin-top: -40px;
+
+}
+#second_right{
+     margin-top: -40px;
+     margin-right: 100px;
+     color: black;
+     padding:60px;
+     font-size: 1rem;
+}
+.secondpara p{
+     color: #695d5d;
+     font-weight: 100;
+     font-size: 17px;
+}
+/* **************** third div ****************** */
+
+#third{
+     padding:20px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    background-color:#333;
+   
+}
+#third p{
+     color: #695d5d;  
+     font-weight: 100;
+}
+.left{
+     background-color: white;
+     margin: 20px;
+     width:300px;
+}
+.middle{
+     background-color: white;
+     margin: 20px;
+     width:300px;
+}
+.right{
+     background-color: white;
+     margin: 20px;
+     width:300px;
+}
+
+.third_img{
+     width: 300px;
+}
+ .thirdpara h3{
+      text-align: center;
+      margin: 40px 0px; 
+
+     }
+ .thirdpara p{
+      text-align: center;
+      margin: 20px 0px; 
+
+     }
+
+/* ************* fourth div ******************* */
+
+
+.fourth{
+     width: 100%;
+}
+
+.fourth h3{
+     margin: 80px 0px;
+     font-size: 1.8rem;
+     text-transform:capitalize;
+     text-align: center;
+}
+.fourth p{
+    margin-bottom: 40px;
+    margin-top: -20px;
+     text-align: center;
+     color: grey;
+     font-weight: 100;
+}
+
+/* ************** fifth div ******************* */
+
+
+.fifth{
+     color: white;
+     display: flex;
+     flex-direction: row;
+}
+.fifth h3{ 
+     text-transform: capitalize;
+     font-size: 1.5rem;
+     padding:55px;
+}
+.fifth p{ 
+     font-weight: 100;
+     padding:20px;
+     margin-bottom: 20px;
+}
+
+.fifth_left{
+     width: 100%;
+     background-color: #3ba5ec;
+     text-align: center;
+}
+.fifth_right{
+     width: 100%;
+     background-color: #333;
+     text-align: center;
+}
+
+
+
+/* ************* media queries ************************ */
+
+
